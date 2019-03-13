@@ -1,0 +1,29 @@
+Spectral Mark Up
+------------------------------------------------------------------------------------------------------------------------------------------------
+(fontTimesNewRoman, size30, bold) Hi!
+## That makes "Hi!" Times New Roman, its font size thirty px, and bold.
+   Let's keep going
+(clearFormatting) Hi!
+## That makes "Hi!" look the way it does in the markuped document.
+   Let's keep going
+(fontNormal, sizeNormal, italic) Hi!
+## That makes "Hi!"look the way it did above, but in italics.
+   Let's keep going
+Hello!
+## Remember! The formatting stays until you type "(clearFormatting)"
+   Let's keep going
+(clearFormatting, script)
+# Tags can be combined with other tags using a comma, so this is valid.
+    (scriptPython)
+    #### Scripting can be done in any language
+         To specify a version of a language, put a comma, then, if it's a number, put "v.[version number]" If it is a title, put "t.[version title]
+         i.e. - (scriptPython, v.3)
+         i.e. - (scriptUbuntu, t.XenialXerus)
+        print("Hello World!")
+        # This is a valid command in Python
+    (end)
+    # Script ends here.
+(clearFormatting)
+(end)
+------------------------------------------------------------------------------------------------------------------------------------------------
+Spectral Mark Up
