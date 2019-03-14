@@ -16,7 +16,7 @@ Hello!
 # Tags can be combined with other tags using a comma, so this is valid.
     (scriptPython)
     #### Scripting can be done in any language
-         To specify a version of a language, put a comma, then, if it's a number, put "v.[version number]" If it is a title, put "t.[version title]
+         To specify a version of a language, put a comma, then, if it's a number, put "v.[version number]" If it is a title, put "t.[distro name].[version title]
          i.e. - (scriptPython, v.3)
          i.e. - (script*nix, t.Ubuntu.XenialXerus)
         print("Hello World!")
